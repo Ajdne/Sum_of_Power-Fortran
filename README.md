@@ -34,7 +34,14 @@ There are some good sources which explain power flow analasys in-depth. To view 
 
 **Grid_Layout.txt**
 
-**Power_Line_Parameters.txt**
+**Power_Line_Parameters.txt** contains:
+ - Line impedance value represented as direct(positive) symmetrical component named as **Zd**
+ - Power line admittance value named **Y0**\
+ Units of **Zd** and **Y0** are [ Ω / unit of length] and [ mS / unit of length], respectively.
+ - Real and imaginary part of apparent power of each node represented as **S[i]**, where "i" represents the number of node
+ - Line voltage value in root node named **V1**
+ - Base value of apparent power named **Sb**\
+ This value is needed for normalisation procedures (converting all units into relative values, so calculations are done more easly...).
 
 **Predmetni_projekat.pdf** is additional documentation written in Serbian language explaining the theoretical background of the Power systems and this calculation.
 
