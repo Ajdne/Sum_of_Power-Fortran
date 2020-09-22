@@ -29,7 +29,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
 
 **Setup.txt** contains:
  - Selection of units of length with **Units_Selector** (meters or feet)
- - Maximum number of iterations named **Max_Iter** (needed in case when the program is not able to reach the solution)
+ - Maximum number of iterations named **Max_Iter** (needed in case the program is not able to reach the solution)
  - Iteration criteria value named **Epsilon**
 
 **Grid_Layout.txt**
