@@ -35,7 +35,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
 **Grid_Layout.txt**
 
 **Power_Line_Parameters.txt** contains:
- - Line impedance value represented as direct(positive) symmetrical component named as **Zd**
+ - Line impedance value represented as direct(positive) symmetrical component named **Zd**
  - Power line admittance value named **Y0**\
  Units of **Zd** and **Y0** are [ Ω / unit of length] and [ mS / unit of length], respectively.
  - Real and imaginary part of apparent power of each node represented as **S[i]**, where "i" represents the number of node
