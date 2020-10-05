@@ -32,18 +32,24 @@ There are some good sources which explain power flow analasys in-depth. To view 
  - Maximum number of iterations named **Max_Iter** (needed in case the program is not able to reach the solution)
  - Iteration criteria value named **Epsilon**
 
-**Grid_Layout.txt**
+**Grid_Layout.txt** contains:
+ - Total **Number_of_Nodes** in the given power grid
+ - **Number_of_Consumer_Nodes** are nodes with some power consumption (where apparent power S is not 0)
 
 **Power_Line_Parameters.txt** contains:
  - Line impedance value represented as direct(positive) symmetrical component named **Zd**
  - Power line admittance value named **Y0**\
  Units of **Zd** and **Y0** are [ Ω / unit of length] and [ mS / unit of length], respectively.
- - Real and imaginary part of apparent power of each node represented as **S[i]**, where "i" represents the number of node
+ - Real and imaginary part of apparent power of each consumer node represented as **S[i]**, where "i" represents the consumer node index
  - Line voltage value in root node named **V1**
  - Base value of apparent power named **Sb**\
  This value is needed for normalisation procedures (converting all units into relative values, so calculations are done more easly...).
 
 **Predmetni_projekat.pdf** is additional documentation written in Serbian language explaining the theoretical background of the Power systems and this calculation.
+
+----------------ADMIN NOTES------------------
+STAVITI PRVO IME PODATKA - PA OBJASNJENJE
+---------------------------------------------
 
 ## Program setup
 
