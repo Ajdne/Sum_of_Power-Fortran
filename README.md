@@ -47,9 +47,9 @@ There are some good sources which explain power flow analasys in-depth. To view 
 
 **Predmetni_projekat.pdf** is additional documentation written in Serbian language explaining the theoretical background of the Power systems and this calculation.
 
-----------------ADMIN NOTES------------------ 
-STAVITI PRVO IME PODATKA - PA OBJASNJENJE 
---------------------------------------------- 
+----------------ADMIN NOTES------------------\
+STAVITI PRVO IME PODATKA - PA OBJASNJENJE\
+---------------------------------------------\ 
 
 ## Program setup
 
