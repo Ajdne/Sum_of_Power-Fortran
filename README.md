@@ -12,9 +12,10 @@ Before understanding the program, the theoretical background of Power systems an
 There are some good sources which explain power flow analasys in-depth. To view them, click [here](https://electrisim.com/load-flow-power-flow.html) or [here](https://www.intechopen.com/books/computational-models-in-engineering/power-flow-analysis).
   
 ## Files
-
-**Module_Global_Variables.f90**
-
+  Modules are listed in this order to represent their **"hierarchy"**. The first module - **Module_Global_Variables**, is included in the 2nd module - **Module_Input_data**, which is then included in the next module - **Module_Allocation**, and so on, ending with **Main**.
+  
+**Module_Global_Variables.f90** contains all variables needed for the program. They are visible in the whole program, because this module is included in every other module.\
+  
 **Module_Input_Data.f90**
 
 **Module_Allocation.f90**
@@ -44,6 +45,8 @@ There are some good sources which explain power flow analasys in-depth. To view 
  - **V1** - Line voltage value in root node
  - **Sb** - Base value of apparent power
   This value is needed for normalisation procedures (converting all units into relative values, so calculations are done more easly...).
+
+**Output.txt**
 
 **Predmetni_projekat.pdf** is additional documentation written in Serbian language explaining the theoretical background of the Power systems and this calculation.
 
