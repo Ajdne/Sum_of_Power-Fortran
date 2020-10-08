@@ -14,19 +14,20 @@ There are some good sources which explain power flow analasys in-depth. To view 
 ## Files
   Modules are listed in this order to represent their **"hierarchy"**. The first module - **Module_Global_Variables**, is included in the 2nd module - **Module_Input_data**, which is then included in the next module - **Module_Allocation**, and so on, ending with **Main**.
   
-**Module_Global_Variables.f90** contains all variables needed for the program. They are visible in the whole program, because this module is included in every other module.\
+### Module_Global_Variables.f90
+  Contains all variables needed for the program. They are visible in the whole program, because this module is included in every other module.
   
-**Module_Input_Data.f90**
+### Module_Input_Data.f90
 
-**Module_Allocation.f90**
+### Module_Allocation.f90
 
-**Module_Normalisation.f90**
+### Module_Normalisation.f90
 
-**Module_Calculation.f90**
+### Module_Calculation.f90
 
-**Module_Output_Data.f90**
+### Module_Output_Data.f90
 
-**Main.f90**
+### Main.f90
 
 **Setup.txt** contains:
  - **Units_Selector** - Selection of units of length (meters or feet)
