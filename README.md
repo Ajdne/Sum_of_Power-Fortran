@@ -51,7 +51,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
       This value is needed for normalisation procedures (converting all units into relative values, so calculations are done more easly...).
 
  - ### Output.txt
-
+    This is the solution output file. It shows number of needed iterations, node index, its voltage and apparent power represented in a table.
  - ### Predmetni_projekat.pdf
     This is additional documentation written in **Serbian** language explaining the theoretical background of the Power systems and this calculation.
 
