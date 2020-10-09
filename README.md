@@ -30,10 +30,10 @@ There are some good sources which explain power flow analasys in-depth. To view 
  - ### Main.f90
 
  - ### Setup.txt
- Contains:
-  - **Units_Selector** - Selection of units of length (meters or feet)
-  - **Max_Iter** - Maximum number of iterations (needed in case the program is not able to reach the solution)
-  - **Epsilon** - Iteration criteria value
+    Contains:
+   - **Units_Selector** - Selection of units of length (meters or feet)
+   - **Max_Iter** - Maximum number of iterations (needed in case the program is not able to reach the solution)
+   - **Epsilon** - Iteration criteria value
 
  - ### Grid_Layout.txt
  Contains:
