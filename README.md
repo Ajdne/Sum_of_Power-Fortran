@@ -18,9 +18,11 @@ There are some good sources which explain power flow analasys in-depth. To view 
     Contains all variables needed for the program. They are visible in the whole program, because this module is included in every other module.
   
  - ### Module_Input_Data.f90
-
+    Contains subroutines for reading data from **Setup.txt**, **Grid_Layout.txt** and **Power_Line_Parameters.txt**.
+    
  - ### Module_Allocation.f90
-
+    Contains subroutines for memory **allocation** and **deallocation**, required for dynamic arrays. Calling **Array_Allocation** subroutine is mandatory before using an array. Subroutine **Array_Deallocation** is called at the very end of the program, to free up memory taken by those dynamic arrays.
+    
  - ### Module_Normalisation.f90
 
  - ### Module_Calculation.f90
@@ -52,6 +54,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
 
  - ### Output.txt
     This is the solution output file. It shows number of needed iterations, node index, its voltage and apparent power represented in a table.
+    
  - ### Predmetni_projekat.pdf
     This is additional documentation written in **Serbian** language explaining the theoretical background of the Power systems and this calculation.
 
