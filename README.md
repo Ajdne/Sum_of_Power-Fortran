@@ -24,7 +24,8 @@ There are some good sources which explain power flow analasys in-depth. To view 
     Contains subroutines for memory **allocation** and **deallocation**, required for dynamic arrays. Calling **Array_Allocation** subroutine is mandatory before using an array. Subroutine **Array_Deallocation** is called at the very end of the program, to free up memory taken by those dynamic arrays.
     
  - ### Module_Normalisation.f90
-
+    Contains subroutines for transforming absolute units into relative units and for setting the voltage value to base value, needed for first iteration.
+    
  - ### Module_Calculation.f90
 
  - ### Module_Output_Data.f90
