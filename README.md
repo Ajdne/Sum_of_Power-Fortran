@@ -27,7 +27,9 @@ There are some good sources which explain power flow analasys in-depth. To view 
     Contains subroutines for transforming absolute units into relative units and for setting the voltage value to base value, needed for first iteration.
     
  - ### Module_Calculation.f90
-
+    This is where the magic happens. Calculates line impedance, line admittance, summarieses shunt admittance for each node.\
+    Contains **main subroutines for the Power Flow Claculation with Current Summation Algorithm** (injected current, branch current and node voltage calculation
+    
  - ### Module_Output_Data.f90
 
  - ### Main.f90
