@@ -28,7 +28,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
     
  - ### Module_Calculation.f90
     This is where the magic happens. Calculates line impedance, line admittance, summarieses shunt admittance for each node.\
-    Contains **main subroutines for the Power Flow Claculation with Current Summation Algorithm** (injected current, branch current and node voltage calculation
+    Contains **main subroutines for the Power Flow Claculation with Current Summation Algorithm** (injected current, branch current and node voltage calculation, as well as "injected" power of each node). Besides that, it finds power debalance of each node and maximum power debalance. These suborutines are called in **Iteration** subroutine until the iteration condition is met.
     
  - ### Module_Output_Data.f90
 
