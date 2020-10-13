@@ -204,14 +204,14 @@ Module Calculation
 
     End Subroutine Return_to_Absolute_Units
 ! --------------------------------------------------------
-    Subroutine Phase_Angle 
-        Implicit None
-        
-        Do i = 1, Number_of_Nodes - 1
-            Theta(i) = ATAN(IMAG(Absolute_V(i)) / REAL(Absolute_V(i)))
-            Write(*, *) "Phase angle (theta):", Theta(i)
-        End Do
-
-    End Subroutine Phase_Angle
+!    Subroutine Phase_Angle 
+!        Implicit None
+!        
+!        Do i = 1, Number_of_Nodes - 1
+!            Theta(i) = ATAN(IMAG(Absolute_V(i)) / REAL(Absolute_V(i)))
+!            Write(*, *) "Phase angle (theta):", Theta(i)
+!        End Do
+!
+!    End Subroutine Phase_Angle
 ! --------------------------------------------------------
 End Module Calculation
