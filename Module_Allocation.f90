@@ -148,11 +148,11 @@ Contains
             Stop
         End If
 
-        Allocate (Theta(Number_of_Nodes - 1), STAT = Alloc_Check)
-        If (Alloc_Check .NE. 0) Then
-            Write(*, *) "Error with Theta allocation!"
-            Stop
-        End If
+!        Allocate (Theta(Number_of_Nodes - 1), STAT = Alloc_Check)
+!        If (Alloc_Check .NE. 0) Then
+!            Write(*, *) "Error with Theta allocation!"
+!            Stop
+!        End If
 
         Write(*, *) "Memory allocation completed."
         Write(*, *) " - - - - - - - - - - - - - - - - - - - - - - - - - "
@@ -274,10 +274,10 @@ Contains
             Stop ("Error with memory deallocation for Absolute_S!")
         End If
 
-        Deallocate (Theta, STAT = Dealloc_Check)
-        If (Dealloc_Check .NE. 0) Then
-            Stop ("Error with memory deallocation for Theta!")
-        End If
+!        Deallocate (Theta, STAT = Dealloc_Check)
+!        If (Dealloc_Check .NE. 0) Then
+!            Stop ("Error with memory deallocation for Theta!")
+!        End If
 
         Write(*, *) "Memory deallocation completed."
         Write(*, *) " - - - - - - - - - - - - - - - - - - - - - - - - - "
