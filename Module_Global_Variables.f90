@@ -45,6 +45,7 @@ Module Global_Variables
     !____________Returning from relative values_____________
     Complex, Allocatable :: Absolute_V(:)  !Absolute node voltage value
     Complex, Allocatable :: Absolute_S(:)  !Absolute node injected complex power
-    Real, Allocatable    :: Theta(:)       !Phase angle of node voltage
+    
+    !Real, Allocatable    :: Theta(:)       !Phase angle of node voltage    -   Potential expansion
 !_______________________________________________________________________________
 End Module Global_Variables
