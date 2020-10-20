@@ -5,7 +5,7 @@
  * [About the program](#about-the-program)
  * [Program setup](#program-setup)
  * [Files](#files)
- * [Heads up](#heads-up) :warning:
+ * [Heads up](#heads-up-:warning:) :warning:
 
 ## About the program
 Before understanding the program, the theoretical background of Power systems and its analysis is required.  
