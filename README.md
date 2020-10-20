@@ -8,7 +8,9 @@
  * [Heads up](#heads-up) :warning:
 
 ## About the program
-Before understanding the program, the theoretical background of Power systems and its analysis is required.  
+ In short, the program calculates **"flow of power"** for each node of a given part of electrical power distribution system. The program does all necessary steps needed for the algorithm to work (like summarising admittance), before starting the main iteration process. Usually, the solution should be reached within a few iterations. The program is split into **Modules** for easier overview. Inputs and outputs are presented in **.txt** files.
+\
+ Before understanding the program completely, the theoretical background of Power systems and its analysis is required.  
 There are some good sources which explain power flow analasys in-depth. To view them, click [here](https://electrisim.com/load-flow-power-flow.html) or [here](https://www.intechopen.com/books/computational-models-in-engineering/power-flow-analysis).
  
 ## Program setup
