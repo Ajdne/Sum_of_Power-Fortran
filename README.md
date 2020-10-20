@@ -5,7 +5,7 @@
  * [About the program](#about-the-program)
  * [Program setup](#program-setup)
  * [Files](#files)
- * [Heads up :warning:](#heads-up-:warning:) :warning:
+ * [Heads up](#heads-up) :warning:
 
 ## About the program
 Before understanding the program, the theoretical background of Power systems and its analysis is required.  
@@ -65,7 +65,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
  - ### Predmetni_projekat.pdf
     This is additional documentation written in **Serbian** language explaining the theoretical background of the Power systems and this calculation.
 
-## Heads up :warning:
+## Heads up
  Be careful when entering input data, since altering the number format (even entering 1 more or less digit than defined) will result in compile error. With that in mind, if we want to enter a different number format, we have to define that in program code (**Module_Input_Data.f90**).\
 Be careful about output formating aswell. When output format is incorrect, there will be no compile error, however there is a chance that the results will not be displayed correctly.
  
