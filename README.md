@@ -33,8 +33,10 @@ There are some good sources which explain power flow analasys in-depth. To view 
     Contains **main subroutines for the Power Flow Claculation with Current Summation Algorithm** (injected current, branch current and node voltage calculation, as well as "injected" power of each node). Besides that, it finds power debalance of each node and maximum power debalance. These suborutines are called in **Iteration** subroutine until the iteration condition is met.
     
  - ### Module_Output_Data.f90
+    This module prints out relevant data (voltage and apparent power of each node) in **Output.txt** file.
 
  - ### Main.f90
+    Main file of the program which calls all the necessary subroutines from other modules.
 
  - ### Setup.txt
     Contains:
