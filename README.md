@@ -14,7 +14,7 @@ There are some good sources which explain power flow analasys in-depth. To view 
 ## Program setup
  
 ## Files
-   Modules are listed in this order to represent their **"hierarchy"**. The first module - **Module_Global_Variables**, is included in the 2nd module - **Module_Input_data**, which is then included in the next module - **Module_Allocation**, and so on, ending with **Main**.
+   There is a certain **"hierarchy"** in module organisation. The first module - **Module_Global_Variables**, is included in the 2nd module - **Module_Input_data**, which is then included in the next module - **Module_Allocation**, and so on, ending with **Main**.
   
  - ### Module_Global_Variables.f90
     Contains all variables needed for the program. They are visible in the whole program, because this module is included in every other module.
@@ -65,4 +65,8 @@ There are some good sources which explain power flow analasys in-depth. To view 
  - ### Predmetni_projekat.pdf
     This is additional documentation written in **Serbian** language explaining the theoretical background of the Power systems and this calculation.
 
-## Heads up
+## Heads up :warning:
+ Be careful when entering input data, since altering the number format (even entering 1 more or less digit than defined) will result in compile error. With that in mind, if we want to enter a different number format, we have to define that in program code (**Module_Input_Data.f90**).\
+Be careful about output formating aswell. When output format is incorrect, there will be no compile error, however there is a chance that the results will not be displayed correctly.
+ 
+ 
