@@ -1,5 +1,4 @@
 # Power Flow Claculation with Current Summation Algorithm in Radial Distribution Networks (Fortran)
-# :hammer: README is currently in the making :hammer:
 
 ## Table of Contents
  * [About the program](#about-the-program)
@@ -8,12 +7,25 @@
  * [Heads up](#heads-up) :warning:
 
 ## About the program
- In short, the program calculates **"flow of power"** for each node of a given part of electrical power distribution system. The program does all necessary steps needed for the algorithm to work (like summarising admittance), before starting the main iteration process. Usually, the solution should be reached within a few iterations. The program is split into **Modules** for easier overview. Inputs and outputs are presented in **.txt** files.
+ The program was written in Microsoft Visual Studio 2010.\
+In short, the program calculates **"flow of power"** for each node of a given part of electrical power distribution system. The program does all necessary steps needed for the algorithm to work (like summarising admittance), before starting the main iteration process. Usually, the solution should be reached within a few iterations. The program is split into **Modules** for easier overview. Inputs and outputs are presented in **.txt** files.
 \
  Before understanding the program completely, the theoretical background of Power systems and its analysis is required.  
 There are some good sources which explain power flow analasys in-depth. To view them, click [here](https://electrisim.com/load-flow-power-flow.html) or [here](https://www.intechopen.com/books/computational-models-in-engineering/power-flow-analysis).
+\
+If you have any suggestions or need help setting up the program, **feel free to contact me**!
  
 ## Program setup
+ The easiest way to set up this program would be that I just upload all the files here and you just start the program by double-clicking the **.sln file**.\
+ However, I had some problems several times when trying to start the program that way. So, here is a bit more complicated way of starting the program, but I am sure it will work:
+ 1. Download all the files from the repository **except Main.f90**.
+ 2. Create a new project and name it **Main**.\
+ You can name it how you like, just make sure you change the first and last line of code in the main body aswell.
+ 3. Copy the code from **Main.f90** from this repository and paste it into your main file.
+ 4. Copy the downloaded files and paste them in your project folder.
+ 5. Now click **Add New Item** in Visual Studio and select all the modules you copied to project folder.
+ Now the modules within the project should be linked and opened.
+ 6. Compile and run...
  
 ## Files
    There is a certain **"hierarchy"** in module organisation. The first module - **Module_Global_Variables**, is included in the 2nd module - **Module_Input_data**, which is then included in the next module - **Module_Allocation**, and so on, ending with **Main**.
