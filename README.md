@@ -23,7 +23,7 @@ If you have any suggestions or need help setting up the program, **feel free to 
  You can name it how you like, just make sure you change the first and last line of code in the main body aswell.
  3. Copy the code from **Main.f90** from this repository and paste it into your main file.
  4. Copy the downloaded files and paste them in your project folder.
- 5. Now click **Add New Item** in Visual Studio and select all the modules you copied to project folder.
+ 5. Now click **Add Existing Item** in top left corner of Visual Studio and select all the modules you copied to project folder.
  Now the modules within the project should be linked and opened.
  6. Compile and run...
  
