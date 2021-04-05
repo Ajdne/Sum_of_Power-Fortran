@@ -1,4 +1,4 @@
-# Power Flow Claculation with Current Summation Algorithm in Radial Distribution Networks (Fortran)
+# Power Flow Calculation with Current Summation Algorithm in Radial Distribution Networks (Fortran)
 
 ## Table of Contents
  * [About the program](#about-the-program)
